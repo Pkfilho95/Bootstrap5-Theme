@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+    <title>Management</title>
+</head>
+<body>
+    <aside>
+        <nav class="navbar-vertical sidebar-open">
+            <div class="d-flex flex-column flex-shrink-0 p-3 list-unstyled fw-semibold">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item"><a class="nav-link nav-link-active" href=""><i class="fa fa-bar-chart"></i>Dashboard</a></li>
+                    <hr>
+                    <li class="nav-item"><a class="nav-link nav-link-disabled">Users</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./form.html"><i class="fa fa-plus"></i>Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./list.html"><i class="fa fa-list"></i>Management</a></li>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="margin-sidebar-open" id="main-content">
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <i class="fa fa-reorder fa-lg" id="navbar-toggle"></i>
+            </div>
+        </nav>
+
+        <div class="container-fluid pt-3">
+            <div class="col-12 bg">
+                <div class="block-header">
+                    <h6 class="block-title fw-bold">User Management</h6>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center">#</th>
+                                <th>Name</th>
+                                <th>Created</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td>John Smith</td>
+                                <td>04/10/2022</td>
+                                <td>
+                                    <i class="fa fa-circle text-success status"></i>
+                                    Active
+                                </td>
+                                <td>
+                                    <a href=""><i class="fa fa-pencil action"></i></a>
+                                    <a href=""><i class="fa fa-trash action"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2</td>
+                                <td>Bryan Moreno</td>
+                                <td>18/03/2019</td>
+                                <td>
+                                    <i class="fa fa-circle text-warning status"></i>
+                                    Inactive
+                                </td>
+                                <td>
+                                    <a href=""><i class="fa fa-pencil action"></i></a>
+                                    <a href=""><i class="fa fa-trash action"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">3</td>
+                                <td>Mila Wilson</td>
+                                <td>30/06/2021</td>
+                                <td>
+                                    <i class="fa fa-circle text-danger status"></i>
+                                    Suspended
+                                </td>
+                                <td>
+                                    <a href=""><i class="fa fa-pencil action"></i></a>
+                                    <a href=""><i class="fa fa-trash action"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex justify-content-end me-2">
+                Developed by Pkfilho95
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

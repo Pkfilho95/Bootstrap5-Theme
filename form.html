@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+    <title>Register</title>
+</head>
+<body>
+    <aside>
+        <nav class="navbar-vertical sidebar-open">
+            <div class="d-flex flex-column flex-shrink-0 p-3 list-unstyled fw-semibold">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item"><a class="nav-link nav-link-active" href=""><i class="fa fa-bar-chart"></i>Dashboard</a></li>
+                    <hr>
+                    <li class="nav-item"><a class="nav-link nav-link-disabled">Users</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./form.html"><i class="fa fa-plus"></i>Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./list.html"><i class="fa fa-list"></i>Management</a></li>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="margin-sidebar-open" id="main-content">
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <i class="fa fa-reorder fa-lg" id="navbar-toggle"></i>
+            </div>
+        </nav>
+
+        <div class="container-fluid pt-3">
+            <div class="col-12 bg">
+                <div class="block-header">
+                    <h6 class="block-title fw-bold">Register User</h6>
+                </div>
+                <form class="p-4 pb-0" action="">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <input class="form-control" type="text" name="first-name" id="first-name" placeholder=" ">
+                            <label class="form-label" for="first-name">First name</label>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <input class="form-control" type="text" name="last-name" id="last-name" placeholder=" ">
+                            <label class="form-label" for="last-name">Last name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <input class="form-control" type="text" name="username" id="username" placeholder=" ">
+                            <label class="form-label" for="username">Username</label>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <input class="form-control" type="email" name="email" id="email" placeholder=" ">
+                            <label class="form-label" for="email">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <input class="form-control datefield" type="text" name="birth-date" id="birth-date" placeholder=" ">
+                            <label class="form-label" for="birth-date">Birth date</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <button class="btn primary" type="submit"><i class="fa fa-plus"></i>Register</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex justify-content-end me-2">
+                Developed by Pkfilho95
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
