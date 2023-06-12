@@ -10,4 +10,4 @@ This is my first frontend project developed in Bootstrap 5 and CSS. It has a log
 
 ## Customize
 
-In the file [styles](assets/css/styles.css), under `:root` you can change the colors according to the existing variables.
+In the file `styles.css`, under `:root` you can change the colors according to the existing variables.
